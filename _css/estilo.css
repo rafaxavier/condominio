@@ -1,0 +1,99 @@
+body{
+	font-family: "trebuchet MS", Helvetica, sans-serif;
+	background: #BCB1E0 ;
+}
+
+h1{
+	color:#6C5BA7;
+	font-family:cursive;
+	font-size: 2em
+}
+
+#conteiner{ /* quadro do form*/
+	width: 430px;
+	height: 300px;
+	margin: 10px auto; /*centraliza o quadro*/
+	border-radius: 10px; /*deixa as pontas da borda arredondada*/
+	-webkit-border-radius: 10px;/* conf. prefixos de Chrome, Safari, versões mais recentes do Opera.*/
+	-moz-border-radius: 10px;/*Firefox*/
+	-o-border-radius: 10px;/*Versões antigas do Opera*/
+	-ms-border-radius: 10px;/*internet explorer */
+	text-align: center; /*centraliza a os textos do quadro */
+
+}
+
+.botao-index{
+	text-align: center;
+}
+
+/*aqui começa o form do condominio*/
+
+	
+
+fieldset#valores{
+	padding-top: 15px;
+	border: 4px solid #6C5BA7;
+	color: #6C5BA7;
+	text-align:left;
+}
+
+
+label{
+	display: block;
+	margin-top: 10px;
+	color: #0F073B;
+	text-align: left;
+
+}
+
+.botao{
+	background:  #4D3B8C;
+	border-radius:2em;
+	line-height: 2em; 
+	margin-top: 20px;
+	font-family:cursive;
+	color: #E3DEF4;
+		
+
+}
+input.botao{
+	
+	width: 24%;
+	float: left;
+	margin-top: 20px;
+	margin-left: 7px;
+	margin-right: 2px;
+	background-color: green;
+
+}
+input{
+	width: 95%;
+
+}
+
+legend{
+	font-weight: bold;
+	font-size: 1.5em;
+	font-family:cursive;
+	color: white;
+}
+table {
+  font-family: arial, sans-serif;
+  color: #0F073B;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td{
+  border: 2px solid #6C5BA7;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  border: 2px solid #6C5BA7;
+  text-align: left;
+  padding: 8px;
+  color: white;
+  background: #0F073B;
+}
